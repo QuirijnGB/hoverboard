@@ -1,0 +1,95 @@
+[{
+    "date": "2017-07-01",
+    "dateReadable": "July 1st",
+    "tracks": [{
+        "title": "Track 1"
+    }, {
+        "title": "Track 2"
+    }],
+    "timeslots": [{
+        "startTime": "09:00",
+        "endTime": "10:00",
+        "sessions": [
+            [132]
+        ]
+    }, {
+        "startTime": "10:00",
+        "endTime": "10:15",
+        "sessions": [
+            [136]
+        ]
+    }, {
+        "startTime": "10:15",
+        "endTime": "11:00",
+        "sessions": [
+            [139]
+        ]
+    }, {
+        "startTime": "11:00",
+        "endTime": "11:40",
+        "sessions": [
+            [103],
+            [120]
+        ]
+    }, {
+        "startTime": "11:50",
+        "endTime": "12:30",
+        "sessions": [
+            [129],
+            [109]
+        ]
+    }, {
+        "startTime": "12:30",
+        "endTime": "14:00",
+        "sessions": [
+            [133]
+        ]
+    }, {
+        "startTime": "14:00",
+        "endTime": "14:40",
+        "sessions": [
+            [101],
+            [107]
+        ]
+    }, {
+        "startTime": "14:50",
+        "endTime": "15:30",
+        "sessions": [
+            [140],
+            [107]
+        ]
+    }, {
+        "startTime": "15:30",
+        "endTime": "16:00",
+        "sessions": [
+            [134]
+        ]
+    }, {
+        "startTime": "16:00",
+        "endTime": "16:40",
+        "sessions": [
+            [105],
+            [119]
+        ]
+    }, {
+        "startTime": "16:50",
+        "endTime": "17:30",
+        "sessions": [
+            [112],
+            [119]
+        ]
+    }, {
+        "startTime": "17:40",
+        "endTime": "18:20",
+        "sessions": [
+            [106],
+            [119]
+        ]
+    }, {
+        "startTime": "18:30",
+        "endTime": "22:30",
+        "sessions": [
+            [137]
+        ]
+    }]
+}]

@@ -53,6 +53,7 @@
 
     <div class="container">
       <div class="about-item">
+<!--<<<<<<< HEAD
         <h4 class="heading">{$ organizerTitle $}</h4>
         <marked-element markdown="{$ aboutOrganizers $}">
           <div class="markdown-html"></div>
@@ -63,8 +64,20 @@
       <div class="about-item">
         <h4 class="heading">{$ whatIsGdg $}</h4>
         <marked-element markdown="{$ aboutGdg $}">
+=======-->
+        <h4 class="heading">[[localize('what-is-gdg')]]</h4>
+        <marked-element markdown="[[localize('about-gdg')]]">
           <div class="markdown-html"></div>
         </marked-element>
+      </div>
+      <span class="divider"></span>
+      <div class="about-item">
+        <h4 class="heading">[[localize('organizer')]]</h4>
+        <marked-element markdown="[[localize('about-organizers')]]">
+<!-->>>>>>> Clean up-->
+          <div class="markdown-html"></div>
+        </marked-element>
+        <a class="page-link" href="/team">[[localize('open-team-page')]]</a>
       </div>
     </div>
 

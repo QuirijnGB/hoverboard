@@ -16,13 +16,11 @@
     "backgroundColor": "#F57C00"
   },
   "firebase": {
-    "name": "hoverboard-experimental",
-    "domain": "hoverboard-experimental.firebaseapp.com",
-    "database": "https://hoverboard-experimental.firebaseio.com",
-    "api": "AIzaSyALDa2D7CMhK_wt2VkET1MaJuQXYVUJd2I",
-    "userSessionsPath": "/userSessions",
-    "ratingsPath": "/ratings",
-    "indexedDbSession": "hoverboard"
+    "name": "droidconau-test",
+    "domain": "droidconau-test.firebaseapp.com",
+    "database": "https://droidconau-test.firebaseio.com",
+    "api": "AIzaSyCFwGU799VW7hGyJ_jfW8DUEzbe-YXPu6k",
+    "userSessionsPath": "/userSessions"
   },
   "mailchimp": {
     "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
@@ -44,18 +42,109 @@
       "permalink": "/blog/"
     },
     {
-      "route": "schedule",
-      "permalink": "/schedule/"
-    },
-    {
-      "route": "speakers",
-      "permalink": "/speakers/"
-    },
-    {
       "route": "team",
       "permalink": "/team/"
     }
   ],
+  "url": "https://droidconau-test.firebaseapp.com/",
+  "mailchimp": {
+    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
+    "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
+  },
+  "partnershipProposition": "http://bit.ly/df16-sponsor",
+  "disqusShortName": "hoverboard-gdg-x",
+  "languages": [
+    {
+      "name": "English",
+      "key": "en"
+    }
+  ],
+  "footerBlocks": [
+    {
+      "title": "for-visitors",
+      "links": [
+        {
+          "text": "team",
+          "url": "/team/"
+        },
+        {
+          "text": "cod",
+          "url": "/cod/"
+        }
+      ]
+    },
+    {
+      "title": "for-partners",
+      "links": [
+        {
+          "text": "partnership-proposition",
+          "url": "http://bit.ly/df16-sponsor",
+          "newTab": true
+        },
+        {
+          "text": "media-kit",
+          "url": "http://bit.ly/df16-media",
+          "newTab": true
+        }
+      ]
+    }
+  ],
+  "contactBlock": {
+    "links": [
+      {
+        "text": "devfest@google.com",
+        "url": "mailto:devfest@google.com"
+      }
+    ]
+  },
+  "tickets": {
+    "url": "http://2event.com/events/630032",
+    "elements": [
+      {
+        "name": "student-ticket",
+        "price": 500,
+        "currency": "₴",
+        "starts": "student-ticket-starts",
+        "ends": "student-ticket-ends",
+        "info": "student-ticket-info",
+        "soldOut": false
+      },
+      {
+        "name": "early-ticket",
+        "price": 750,
+        "currency": "₴",
+        "starts": "early-ticket-starts",
+        "ends": "early-ticket-ends",
+        "info": "early-ticket-info",
+        "soldOut": true
+      },
+      {
+        "name": "lazy-ticket",
+        "price": 1000,
+        "currency": "₴",
+        "starts": "lazy-ticket-starts",
+        "ends": "lazy-ticket-ends",
+        "soldOut": false
+      }
+    ]
+  },
+  "teamPageTitle": "team-page-title",
+  "teamPageText": "team-page-text",
+  "statistics": [
+    {
+      "counter": 400,
+      "caption": "attendees"
+    },
+    {
+      "counter": 1,
+      "caption": "day"
+    },
+    {
+      "counter": 2,
+      "caption": "tracks"
+    }
+  ],
+  "hashtag": "dfua",
   "social": [
     {
       "name": "twitter",
@@ -84,13 +173,13 @@
     "address": "36 Shchyretska St, Lviv, Ukraine",
     "link": "https://www.facebook.com/expopivdennij",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": -33.8816364,
+      "longitude": 151.1986197,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": 49.809841,
-      "longitude": 23.982805
+      "latitude": -33.8816364,
+      "longitude": 151.1986197
     },
     "images": [
       "/images/backgrounds/location_1.jpg",

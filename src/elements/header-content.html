@@ -128,6 +128,7 @@
         <animatable-content name="home">
           <div class="container" center-justified>
             <div class="home-wrapper">
+<!--<<<<<<< HEAD
               <iron-image class="logo" src="/images/logo-light.svg" sizing="contain"
                           alt="GDG DevFest Ukraine 2016"></iron-image>
               <h3 class="dates">{$ dates $}</h3>
@@ -139,6 +140,20 @@
               <div class="action-buttons">
                 <paper-button class="primary" on-tap="_scrollToTickets" raised>{$ buyTicket $}</paper-button>
               </div>
+=======-->
+              <!--<iron-image class="logo" src="/images/logo-light.svg" sizing="contain"
+                          alt="Droidcon Australia 2017"></iron-image>-->
+              <h1 class="title">{{localize('title')}}</h1>
+              <h2 class="motto">{{localize('motto')}}</h2>
+              <h3 class="dates">{{localize('dates')}}</h3>
+              <!--<div class="open-video" on-tap="_openVideo">
+                <iron-icon icon="play"></iron-icon>
+                {{localize('play-icon')}}
+              </div>-->
+              <!--<div class="action-buttons">
+                <paper-button class="primary" on-tap="_scrollToTickets" raised>{{localize('buy-ticket')}}</paper-button>
+              </div>-->
+<!-->>>>>>> Clean up-->
             </div>
           </div>
         </animatable-content>

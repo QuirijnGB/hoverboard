@@ -121,19 +121,31 @@
 
     <app-data
       app="{{app}}"
-      speakers="{{speakers}}"
-      sessions="{{sessions}}"
-      schedule="{{schedule}}"
-      posts="{{posts}}"
     ></app-data>
 
+<!--<<<<<<< HEAD
     <firebase-auth
+=======
+    <firebase-app
+      name="[[app.data.firebase.name]]"
+      auth-domain="[[app.data.firebase.domain]]"
+      database-url="[[app.data.firebase.database]]"
+      api-key="[[app.data.firebase.api]]"
+    >
+    </firebase-app>
+    <!--<firebase-auth
+>>>>>>> More droidcon stuff
       id="auth"
       provider="google"
       app-name="{$ firebase.name $}"
       user="{{app.user}}"
+<<<<<<< HEAD
       status-known="{{_authStatusKnown}}"
     ></firebase-auth>
+=======
+    >
+    </firebase-auth>-->
+>>>>>>> More droidcon stuff-->
 
     <app-drawer-layout id="drawerLayout" drawer-width="599px" force-narrow>
 
@@ -176,10 +188,10 @@
                      posts="{{posts}}"
                      videos="{{videos}}"></home-page>
 
-          <blog-page name="blog"
+          <!--<blog-page name="blog"
                      app="{{app}}"
                      route="{{subRoute}}"
-                     posts="{{posts}}"></blog-page>
+                     posts="{{posts}}"></blog-page>-->
 
           <!--<speakers-page name="speakers"
                          app="{{app}}"

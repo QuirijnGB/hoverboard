@@ -1,9 +1,9 @@
 {
-  "title": "GDG DevFest Season 2016",
-  "description": "The biggest Google tech conference in Ukraine carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts",
-  "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
+  "title": "Droidcon Australia 2017",
+  "description": "The biggest Android conference on the island :)",
+  "keywords": "event, google, android, australia, new zealand, sydney, droidcon, 2017",
   "dates": "September 9-10, 2016",
-  "locationAddressShort": "Lviv, Ukraine",
+  "locationAddressShort": "Sydney, Australia",
   "motto": "Be a GDG. Be a Hero!",
   "playIcon": "See how it was in 2015",
   "c4p": "Become a speaker",
@@ -31,11 +31,11 @@
   "locationTitle": "Pivdennyi Expo Center",
   "locationDescription": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event",
   "locationAddress": "Shchyretska St, 36",
-  "organizerTitle": "Organizer",
-  "aboutOrganizers": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+  "organizerTitle": "Organiser",
+  "aboutOrganizers": "Organised by local Android enthousiasts and developers",
   "openTeamPage": "Open team page",
-  "whatIsGdg": "What is GDG?",
-  "aboutGdg": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
+  "whatIsGdg": "What is Droidcon?",
+  "aboutGdg": "droidcon is a global developer conference series and a network focusing on the best of Android.",
   "readMore": "Read more",
   "copyLink": "Copy link",
   "filteredBy": "filtered by",
@@ -66,46 +66,6 @@
           "text": "Team",
           "url": "/team/",
           "newTab": false
-        },
-        {
-          "text": "Code of Conduct",
-          "url": "/cod/",
-          "newTab": false
-        },
-        {
-          "text": "Google Developers",
-          "url": "https://developers.google.com/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2013",
-          "url": "http://gdg-devfest-ua.appspot.com/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2014",
-          "url": "http://devfest.gdg.org.ua/2014/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2015",
-          "url": "http://devfest.gdg.org.ua/2015/",
-          "newTab": true
-        }
-      ]
-    },
-    {
-      "title": "For Partners",
-      "links": [
-        {
-          "text": "Partnership Proposition",
-          "url": "http://bit.ly/df16-sponsor",
-          "newTab": true
-        },
-        {
-          "text": "Media Kit",
-          "url": "http://bit.ly/df16-media",
-          "newTab": true
         }
       ]
     }
@@ -113,28 +73,24 @@
   "contactBlock": {
     "links": [
       {
-        "text": "devfest@google.com",
-        "url": "mailto:devfest@google.com"
+        "text": "info@droidcon.sydney",
+        "url": "mailto:info@droidcon.sydney"
       }
     ]
   },
   "teamPageTitle": "Team",
-  "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT.",
+  "teamPageText": "This amazing team of passionate Android developers and enthousiasts are proud to bring Droidcon to Australia",
   "statistics": [
     {
       "counter": 600,
       "caption": "Attendees"
     },
     {
+      "counter": 1,
+      "caption": "Day"
+    },
+    {
       "counter": 2,
-      "caption": "Days"
-    },
-    {
-      "counter": 30,
-      "caption": "Sessions"
-    },
-    {
-      "counter": 3,
       "caption": "Tracks"
     }
   ],

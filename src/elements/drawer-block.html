@@ -105,7 +105,7 @@
             icon="open-in-new"
           ></iron-icon>
         </a>-->
-        <a class="navigation-link" href="https://goo.gl/forms/nwgLEGfaso6LabUk1" target="_blank" rel="noopener noreferrer">
+        <a class="navigation-link" href="https://goo.gl/forms/nwgLEGfaso6LabUk1" target="_blank" rel="noopener noreferrer" on-tap="_trackCfpClick">
           {$ submitTalk $}
           <iron-icon
             class="open-in-new"
@@ -132,6 +132,10 @@
         _trackBuyClick: function () {
           HOVERBOARD.Analytics.trackEvent('ticket', 'buy_click', 'drawer');
           this.closeDrawer();
+        },
+
+        _trackCfpClick: function () {
+          HOVERBOARD.Analytics.trackEvent('cfp', 'cfp_click', 'drawer');
         }
 
       });

@@ -157,7 +157,7 @@
         </template>
 
         <div class="action-button-wrapper" hidden$="[[app.isPhoneSize]]" layout horizontal center-center>
-          <a href="https://goo.gl/forms/nwgLEGfaso6LabUk1" target="_blank" rel="noopener noreferrer">
+          <a href="https://goo.gl/forms/nwgLEGfaso6LabUk1" target="_blank" rel="noopener noreferrer" on-tap="_trackCfpClick">
             <paper-button class="action-button">{$ submitTalk $}</paper-button>
           </a>
         </div>
@@ -252,6 +252,10 @@
 
         _trackBuyClick: function () {
           HOVERBOARD.Analytics.trackEvent('ticket', 'buy_click', 'toolbar');
+        },
+
+        _trackCfpClick: function () {
+          HOVERBOARD.Analytics.trackEvent('cfp', 'cfp_click', 'toolbar');
         }
 
       });

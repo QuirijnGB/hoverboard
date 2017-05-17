@@ -52,32 +52,32 @@
     </style>
 
     <div class="container">
+      
       <div class="about-item">
-
         <h4 class="heading">{$ organizerTitle $}</h4>
         <marked-element markdown="{$ aboutOrganizers $}">
           <div class="markdown-html"></div>
         </marked-element>
         <a class="page-link" href="/team">{$ openTeamPage $}</a>
       </div>
+
       <span class="divider"></span>
+
       <div class="about-item">
         <h4 class="heading">{$ whatIsGdg $}</h4>
         <marked-element markdown="{$ aboutGdg $}">
-<!--
-        <h4 class="heading">[[localize('what-is-gdg')]]</h4>
-        <marked-element markdown="[[localize('about-gdg')]]">
           <div class="markdown-html"></div>
         </marked-element>
       </div>
-      <span class="divider"></span>
-      <div class="about-item">
-        <h4 class="heading">[[localize('organizer')]]</h4>
-        <marked-element markdown="[[localize('about-organizers')]]">-->
 
+      <span class="divider"></span>
+
+      <div class="about-item">
+        <h4 class="heading">{$ callForPapers $}</h4>
+        <marked-element markdown="{$ callForPapersDetails $}">
           <div class="markdown-html"></div>
         </marked-element>
-        <a class="page-link" href="/team">[[localize('open-team-page')]]</a>
+        <a class="page-link" href="{$ cfpUrl $}"  target="_blank" on-tap="_trackCfpClick">{$ submitTalk $}</a>
       </div>
     </div>
 
@@ -89,7 +89,11 @@
 
       Polymer({
 
-        is: 'about-block'
+        is: 'about-block',
+
+        _trackCfpClick: function () {
+          HOVERBOARD.Analytics.trackEvent('cfp', 'cfp_click', 'about');
+        }
 
       });
 
